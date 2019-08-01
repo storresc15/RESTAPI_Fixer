@@ -1,0 +1,19 @@
+<% include ./partials/header %>
+<link rel="stylesheet" href="stylesheets/landing.css">
+
+
+	
+	<div class = "ui raised very padded text container segment">
+	<h1 class="ui huge header">Search Rates</h1>
+<form action="/results" method="GET" class="ui large form">
+	<div class="ui stacked segment">
+		<Strong>Base:</Strong><br>	
+	<input type="text" placeholder="Base" name="base" value="EUR">	
+  	<input class="ui fluid large grey submit button" type="submit">
+	</div>	
+</form>		
+</div>
+	
+
+<script src="scripts/background.js"></script>
+<% include ./partials/footer %>
