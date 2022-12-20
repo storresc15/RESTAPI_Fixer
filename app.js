@@ -1,7 +1,7 @@
-var express = require("express");
-var app = express();
-var request = require("request");
-const PORT = process.env.PORT || 3000;
+const express = require("express"),
+    app = express(),
+    request = require("request"),
+    PORT = process.env.PORT || 3000;
 
 
 app.set("view engine", "ejs");
